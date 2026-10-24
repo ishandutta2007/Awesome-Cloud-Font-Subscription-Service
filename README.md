@@ -30,40 +30,28 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global digital font and typography market is estimated at approximately **$1.1B to $1.25B** (projected to reach ~$1.7B+ at a ~4.2% CAGR). The commercial segment is moderately concentrated with oligopolistic, winner-take-most dynamics dominated by giant incumbents like Monotype and Adobe controlling massive proprietary catalog IP, while the web delivery tier is counterbalanced by Google Fonts' ubiquitous open-source distribution.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Adobe Fonts](https://fonts.adobe.com/)** | 20,000+ font library included with Creative Cloud subscriptions, with desktop sync and webfont serving. | Included with **Creative Cloud** plans (from ~$22.99/month for single app). Standalone Pro tier not sold separately . | **Adobe Fonts Free**: ~**5,500 fonts** for personal/non-commercial use, limited to Creative Cloud apps only . |
-
-| **[Google Fonts](https://fonts.google.com/)** | 1,500+ open-source font families, free for any use including commercial, with CDN delivery. | **Free** (all fonts are open source, no fees) . | **Fully free**: entire library, no account, no limits, commercial use allowed . |
-
-| **[Monotype Fonts](https://www.monotype.com/)** | Enterprise font subscription with 150,000+ fonts from 2,000+ foundries, plus font management tools. | **Web Kit Lite**: **$2,500/year**. **Web Kit 2.0**: **$7,500/year**. **Standard**: **$20,500/year** . | No free tier. Trial/demo available via sales. |
-
-| **[Type Network](https://typenetwork.com/)** | Curated foundry network with per-pageview webfont licensing and news-specific collections. | **News Library**: from **$2,000/year** (10 sets). **Metro** (12 fonts): **$2,500/year** for 1M pageviews. **National** (20 fonts): **$4,500/year** for unlimited pageviews . | No free tier. Custom licenses available. |
-
-| **[Fontstand](https://fontstand.com/)** | Rent-to-own font platform: rent fonts for 10% of retail price monthly; after 12 months, own them permanently. | **10% of retail price per month** (e.g., a $35 font rents for ~$3.50/month). After 12 rentals, permanently yours . | **iPad subscription**: **$4.99/month** for access to 10,000+ fonts (no rental required). Desktop app requires rental fees . |
-
-| **[MyFonts](https://www.myfonts.com/)** | Monotype-owned marketplace for purchasing individual font licenses from thousands of foundries. | Per-font pricing: **$20–$35** for display fonts; **$35–$70** for professional text fonts (single style base price) . | No free tier. Occasional free font families from foundries . |
-
-| **[Linotype.com](https://www.linotype.com/)** | Monotype's classic foundry storefront with per-font desktop/web licenses. | Per-font pricing: e.g., **€35** for a single style (Compiler Std Regular Italic) . | No free tier. |
-
-| **[Creative Market](https://creativemarket.com/)** | Marketplace for independent designers, including font families and individual weights. | **Minimum prices**: Font family desktop/webfont **$15**; individual weight **$12**; app license **$72** . | No free tier. Free goods occasionally available. |
-
+| Product | Description | Company Scale (Revenue / Valuation) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Fonts](https://fonts.google.com/)** | 1,500+ open-source font families, free for any use including commercial, with CDN delivery. | **Alphabet / Google**: ~$350B+ annual revenue, ~$2T+ market cap | **Free** ($0, completely open-source under OFL/Apache 2.0) | **Fully free**: 1,500+ font families completely free forever for personal & commercial use with no pageview limits. |
+| **[Adobe Fonts](https://fonts.adobe.com/)** | 20,000+ font library included with Creative Cloud subscriptions, with desktop sync and webfont serving. | **Adobe Inc.**: ~$21B+ annual revenue, ~$150B–$220B market cap | Included with Creative Cloud subscriptions starting from **$22.99/month** (single app) or **$59.99/month** (all apps) | **Free tier available**: ~5,500 fonts free forever for non-commercial use within Creative Cloud apps; 7-day free trial for full Creative Cloud plans. |
+| **[Creative Market](https://creativemarket.com/)** | Marketplace for independent designers, including font families and individual weights. | **Dribbble / Tiny**: Backed by Tiny; platform creators surpassed $165M+ in lifetime earnings | Pay-per-asset starting at **$12** (single weight), **$15** (font family desktop/web), and **$72** (app license) | No permanent free catalog; weekly drop of **4–6 free design goods/fonts** rotating every 7 days. |
+| **[Monotype Fonts](https://www.monotype.com/)** | Enterprise font subscription with 150,000+ fonts from 2,000+ foundries, plus font management tools. | **Monotype Imaging (HGGC)**: ~$250M+ annual revenue; acquired for **$825M** valuation | **Web Kit Lite**: **$2,500/year**; **Web Kit 2.0**: **$7,500/year**; **Standard**: **$20,500/year** | **30-day free trial** with full library prototyping/mockup rights (no live commercial publishing). |
+| **[MyFonts](https://www.myfonts.com/)** | Monotype-owned marketplace for purchasing individual font licenses from thousands of foundries. | Subsidiary of **Monotype** (~$825M valuation) | Per-font licensing starting at **$20–$35** for display fonts and **$35–$70** for professional text styles | No perpetual free catalog; browser-based interactive **Test Drive** preview tool with occasional free promotional weights per foundry. |
+| **[Linotype.com](https://www.linotype.com/)** | Monotype's classic foundry storefront with per-font desktop/web licenses. | Subsidiary of **Monotype** (~$825M valuation) | Per-font licensing starting at **€35 (~$38)** for a single style / weight | No perpetual free tier; live in-browser **Test Drive** preview and prototyping trials via Monotype Fonts. |
+| **[Type Network](https://typenetwork.com/)** | Curated foundry network with per-pageview webfont licensing and news-specific collections. | **Private / Boutique network** of leading independent foundries | **News Library**: from **$2,000/year**; **Metro (12 fonts)**: **$2,500/year** (up to 1M pageviews); **National (20 fonts)**: **$4,500/year** | **30-day free trial** for webfont integration testing; downloadable desktop trial packages upon account registration. |
+| **[Fontstand](https://fontstand.com/)** | Rent-to-own font platform: rent fonts for 10% of retail price monthly; after 12 months, own them permanently. | **Private / Independent foundry co-op** (Fontstand BV) | **10% of font retail price/month** (e.g. ~$3.50/mo for a $35 font); **$4.99/month** for iPad full access | **1-hour free trial** per font style (up to 10 fonts/day) for local testing in design apps; app download is free forever. |
 
 
 ## Open-Source GitHub Projects
