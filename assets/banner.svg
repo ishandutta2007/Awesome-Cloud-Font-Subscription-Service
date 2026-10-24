@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      .orb-1 {
+        animation: pulse1 8s ease-in-out infinite alternate;
+      }
+      .orb-2 {
+        animation: pulse2 10s ease-in-out infinite alternate;
+      }
+      .wave-path {
+        animation: waveFlow 12s linear infinite;
+      }
+      .badge-glow {
+        animation: floatBadge 4s ease-in-out infinite alternate;
+      }
+      @keyframes pulse1 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.45; }
+        100% { transform: translate(40px, 30px) scale(1.15); opacity: 0.7; }
+      }
+      @keyframes pulse2 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.35; }
+        100% { transform: translate(-35px, -20px) scale(1.1); opacity: 0.65; }
+      }
+      @keyframes floatBadge {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Blueprint Grid Pattern -->
+  <rect width="1200" height="420" rx="16" fill="url(#gridPattern)"/>
+
+  <!-- Ambient Glowing Orbs (Dynamic background depth) -->
+  <g>
+    <circle class="orb-1" cx="220" cy="110" r="140" fill="#38bdf8" filter="url(#glow)"/>
+    <circle class="orb-2" cx="1020" cy="300" r="160" fill="#a855f7" filter="url(#glow)"/>
+    <circle class="orb-1" cx="620" cy="380" r="100" fill="#06b6d4" filter="url(#glow)"/>
+  </g>
+
+  <!-- Typography Glyph Outlines (Watermarks in background) -->
+  <g opacity="0.06" fill="#f8fafc">
+    <text x="70" y="320" font-family="'Times New Roman', serif" font-size="300" font-weight="bold">Aa</text>
+    <text x="940" y="220" font-family="'Courier New', monospace" font-size="200" font-weight="bold">&amp;</text>
+  </g>
+
+  <!-- Outer Rounded Border -->
+  <rect x="2" y="2" width="1196" height="416" rx="14" fill="none" stroke="#475569" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Top Category Chip -->
+  <g transform="translate(100, 52)">
+    <rect width="210" height="32" rx="16" fill="url(#accentGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="16" cy="16" r="4.5" fill="#38bdf8"/>
+    <text x="30" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="1">CURATED DIRECTORY</text>
+  </g>
+
+  <!-- Main Title & Branding (Foreground - Guaranteed Readability) -->
+  <text x="100" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="900" fill="url(#primaryGrad)" letter-spacing="-0.5">
+    Awesome Cloud Font Services
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="#cbd5e1">
+    Webfont Delivery CDN • Self-Hosted Pipelines • Commercial SaaS &amp; Open Source
+  </text>
+
+  <!-- Description / Meta Line -->
+  <text x="100" y="224" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="300" fill="#94a3b8">
+    Production-grade typefaces, licensing analysis, npm packages, variable font tools &amp; font managers.
+  </text>
+
+  <!-- Interactive Dynamic Showcase Feature Badges/Pills (Lower Foreground) -->
+  <g class="badge-glow" transform="translate(100, 275)">
+    <!-- Pill 1: Webfont Delivery -->
+    <g transform="translate(0, 0)">
+      <rect width="230" height="52" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">⚡ Cloud CDN Delivery</text>
+    </g>
+
+    <!-- Pill 2: Self-Hosted -->
+    <g transform="translate(250, 0)">
+      <rect width="230" height="52" rx="12" fill="url(#cardGrad)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">📦 Self-Hosted NPM</text>
+    </g>
+
+    <!-- Pill 3: Licensing & Pricing -->
+    <g transform="translate(500, 0)">
+      <rect width="230" height="52" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">⚖️ Transparent Licensing</text>
+    </g>
+
+    <!-- Pill 4: Variable & Open Source -->
+    <g transform="translate(750, 0)">
+      <rect width="250" height="52" rx="12" fill="url(#cardGrad)" stroke="#34d399" stroke-opacity="0.4" stroke-width="1.2"/>
+      <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">🌱 100% Libre &amp; Open Source</text>
+    </g>
+  </g>
+
+  <!-- Bottom Terminal Tagline -->
+  <g transform="translate(100, 375)">
+    <circle cx="6" cy="6" r="3.5" fill="#10b981"/>
+    <text x="20" y="10" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#64748b">
+      status: active • curated for modern developers, ui/ux designers &amp; web architects
+    </text>
+  </g>
+</svg>
