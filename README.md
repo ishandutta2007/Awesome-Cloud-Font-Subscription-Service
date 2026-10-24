@@ -59,7 +59,7 @@ The global digital font and typography software market is estimated at approxima
 
 ## 🚀 Open-Source GitHub Projects
 
-The open-source typography ecosystem empowers teams to self-host fonts, automate font pipelines, and eliminate external CDN tracking. Repositories below are ordered by GitHub Stars_Count in descending order.
+The open-source typography ecosystem empowers teams to self-host fonts, automate font pipelines, and eliminate external CDN tracking. Repositories below are ordered by GitHub_Stars_Count in descending order.
 
 ### Top Projects (Ranked by GitHub_Stars)
 
